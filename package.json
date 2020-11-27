@@ -1,0 +1,19 @@
+{
+  "name": "QuickScan",
+  "version": "1.0.0",
+  "description": "quickscanfullstackapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaiknawazz/QuickServe.git"
+  },
+  "author": "Fuken Foods Pvt Ltd",
+  "license": "Private",
+  "bugs": {
+    "url": "www.fukentech.com"
+  },
+  "homepage": "https://github.com/shaiknawazz/QuickServe/blob/master/README.md"
+}
