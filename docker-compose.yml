@@ -20,12 +20,15 @@ services:
     build:
       context: ./backend/
       dockerfile: Dockerfile
+    tty: true 
     ports:
-      - "5000:5000"
+      - '5000:5000'
     volumes:
       - ./backend:/usr/src/app
     depends_on:
       - "db"
+    environment:  
+      - FLASK_APP=app.py
 
   frontend:
     container_name: quickscan-frontend-react-app
@@ -42,4 +45,4 @@ services:
     environment:
       - NODE_ENV=development
       - CHOKIDAR_USEPOLLING=true
-      - HOST_URL=http://127.0.0.1:5000
+      #- HOST_URL=http://127.0.0.1:5000
