@@ -2,4 +2,6 @@
 /node_modules
 /server/site.db
 /server/venv
+/.env
+/.vscode
 /server/__pycache__
